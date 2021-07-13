@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#first-image {
+	background-image: url("../img/pexels-photo-2663803.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#second-image {
+	background-image: url("../img/pexels-photo-2877080.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#third-image {
+	background-image: url("../img/pexels-photo-5331952.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

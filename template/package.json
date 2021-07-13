@@ -1,0 +1,19 @@
+{
+	"name": "telegraph-design",
+	"description": "Share your thoughts about code.",
+	"author": "Paulo Elienay <paulo@pauloelienay.com>",
+	"version": "0.1.0",
+	"main": "index.js",
+	"license": "BSD-3-Clause",
+	"scripts": {
+		"dev": "vite"
+	},
+	"dependencies": {
+		"autoprefixer": "^10.3.0",
+		"postcss": "^8.3.5",
+		"tailwindcss": "^2.2.4"
+	},
+	"devDependencies": {
+		"vite": "^2.4.1"
+	}
+}
