@@ -7,7 +7,7 @@
 	"license": "BSD-3-Clause",
 	"scripts": {
 		"dev": "vite",
-		"build": "tailwindcss -i ./src/styles.css -o ./css/styles.css"
+		"build": "tailwindcss -i ./src/styles.css -o ./css/styles.css --minify"
 	},
 	"dependencies": {
 		"autoprefixer": "^10.3.0",
