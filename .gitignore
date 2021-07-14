@@ -1,1 +1,4 @@
 template/node_modules
+telegraph/__pycache__
+blog/__pycache__
+db.sqlite3
