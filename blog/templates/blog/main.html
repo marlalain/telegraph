@@ -1,27 +1,17 @@
 <main class="mt-8">
+  {% if post_list %}
+  {% for post in post_list %}
   <div id="post" class="bg-primary-100 dark:bg-primary-800 md:border-b-2 md:border-r-2 border-primary-900 mb-12">
-    <div id="images" class="flex items-center justify-center w-auto">
-      <div id="first-image" class="h-40 w-60 object-cover px-6 my-4 mx-2 rounded-l-lg"></div>
-      <div id="second-image" class="h-40 w-60 object-cover px-6 my-4 mx-2"></div>
-      <div id="third-image" class="h-40 w-60 object-cover px-6 my-4 mx-2 rounded-r-lg"></div>
-    </div>
     <div id="text">
-      <h2 class="md:mx-12 mx-6 font-medium text-2xl dark:text-primary-100 font-secondary">Brown: Using different
-        colors</h2>
-      <p class="md:mx-12 mx-6 my-2 dark:text-primary-100 font-secondary">Lorem ipsum dolor sit amet consectetur
-        adipisicing elit.
-        Numquam assumenda
-        accusamus
-        deleniti,
-        explicabo
-        ullam et. Quis perferendis nihil minus error, maxime ea nisi odio dolorem odit, numquam maiores nam
-        perspiciatis.</p>
+      <h2 class="md:mx-12 mx-6 font-medium text-2xl dark:text-primary-100 font-secondary mt-4">{{ post.title }}</h2>
+      <p class="md:mx-12 mx-6 my-2 dark:text-primary-100 font-secondary">{{ post.content }}</p>
       <div id="info" class="text-primary-200 dark:text-primary-300 md:mx-12 mx-6 font-secondary">by <a
-          href="https://pauloelienay.com" class="text-primary-900 cursor-pointer dark:text-primary-100"
-          id="author">Paulo
-          Elienay</a></div>
+          href="{{ post.author_link }}" class="text-primary-900 cursor-pointer dark:text-primary-100"
+          id="author">{{ post.author_name }}</a></div>
       <button
         class="bg-primary-900 dark:bg-primary-400 text-primary-100 uppercase py-2 w-full mt-4 hover:bg-primary-800 focus:bg-primary-800 dark:hover:bg-primary-300 dark:hover:text-primary-900 font-primary">Share</button>
     </div>
   </div>
+  {% endfor %}
+  {% endif %}
 </main>
