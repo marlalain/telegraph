@@ -3,7 +3,7 @@
 English README coming soon.
 
 ## Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S_a-QmJOIhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Video do projeto](https://img.youtube.com/vi/S_a-QmJOIhI/0.jpg)](https://www.youtube.com/embed/S_a-QmJOIhI)
 
 ## Como instalar
 
